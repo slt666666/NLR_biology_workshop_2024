@@ -4,5 +4,5 @@ OUT_DIR="/content/flye_output"
 
 READ=$1
 
-${Flye} --out-dir $OUT_DIR --nano-raw $READ
+${Flye} --out-dir $OUT_DIR -i 0 -t 2 --nano-raw $READ
 
