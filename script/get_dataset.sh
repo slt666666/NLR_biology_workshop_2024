@@ -3,8 +3,13 @@ DOWNLOAD_DIR="/content"
 mkdir -p $DOWNLOAD_DIR
 cd $DOWNLOAD_DIR
 
-FILE_NAME="nanopore.fastq.gz"
-FILE_NAME2=`basename -s ".gz" $FILE_NAME`
-wget -q -O $FILE_NAME https://github.com/CropEvol/lecture/raw/master/textbook_2024/dataset/$FILE_NAME
-gzip -dc $FILE_NAME > $FILE_NAME2
-rm -f $FILE_NAME
+NAME="bctg"
+
+for i in $(seq -f "%03g" 1 10);do
+  wget -q -O $FILE_NAME https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/${NAME}.part_${i}.fastq.gz
+done
+
+gunzip ${NAME}.part_001.fastq.gz > ${NAME}.part_001.fastq
+
+cat ${NAME}.part_*.fastq.gz > ${NAME}.fastq.gz
+
