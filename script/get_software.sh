@@ -27,5 +27,5 @@ rm -f $FILE_NAME
 ln -sf $TOOL_DIR/seqkit /usr/bin/
 
 ## pipelines
-wget -q -O ../Flye_assemble.sh      https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/Flye_assemble.sh
+wget -q -O ../Flye_assemble.sh      https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/script/Flye_assemble.sh
 
