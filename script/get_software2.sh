@@ -19,3 +19,10 @@ ln -sf $TOOL_DIR/seqkit /usr/bin/
 
 ## install blast
 apt install ncbi-blast+ > /dev/null 2>&1
+
+## download list.txt
+wget -q https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/list.txt
+
+## download avrpik fasra
+wget -q https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/AVR_Pik_CDS.fasta
+wget -q https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/AVR_Pik_protein.fasta
