@@ -18,4 +18,4 @@ rm -f $FILE_NAME
 ln -sf $TOOL_DIR/seqkit /usr/bin/
 
 ## install blast
-apt install ncbi-blast+
+apt install ncbi-blast+ > /dev/null 2>&1
