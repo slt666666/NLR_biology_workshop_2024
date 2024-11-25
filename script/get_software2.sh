@@ -29,4 +29,4 @@ wget -q https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/A
 wget -q https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/AVR_Pik_protein.fasta
 
 ## get sample fastq
-wget -q -O sample.fastq.gz https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/bctg.part_01.fastq.gz
+wget -q -O sample.fastq.gz https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/bctg.part_001.fastq.gz
