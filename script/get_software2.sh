@@ -20,6 +20,7 @@ ln -sf $TOOL_DIR/seqkit /usr/bin/
 ## install blast
 apt install ncbi-blast+ > /dev/null 2>&1
 
+cd ..
 ## download list.txt
 wget -q https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/list.txt
 
