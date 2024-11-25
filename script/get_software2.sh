@@ -27,3 +27,6 @@ wget -q https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/l
 ## download avrpik fasra
 wget -q https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/AVR_Pik_CDS.fasta
 wget -q https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/AVR_Pik_protein.fasta
+
+## get sample fastq
+wget -q -O sample.fastq.gz https://github.com/slt666666/NLR_biology_workshop_2024/raw/master/data/${NAME}.part_${i}.fastq.gz
